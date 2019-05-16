@@ -24,4 +24,48 @@ public class Records {
 
     public Records() {
     }
+
+    public String getRecordID() {
+        return recordID;
+    }
+
+    public void setUserID(String userID) {
+        this.userID = userID;
+    }
+
+    public String getUserID() {
+        return userID;
+    }
+
+    public void setParentRecordID(String parentRecordID) {
+        this.parentRecordID = parentRecordID;
+    }
+
+    public String getParentRecordID() {
+        return parentRecordID;
+    }
+
+    public String getDatetimeStamp() {
+        return datetimeStamp;
+    }
+
+    public void setDatetimeStamp(String datetimeStamp) {
+        this.datetimeStamp = datetimeStamp;
+    }
+
+    public String getObjectClass() {
+        return objectClass;
+    }
+
+    public void setObjectClass(String objectClass) {
+        this.objectClass = objectClass;
+    }
+
+    public void setObjectID(String objectID) {
+        this.objectID = objectID;
+    }
+
+    public String getObjectID() {
+        return objectID;
+    }
 }

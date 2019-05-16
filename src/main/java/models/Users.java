@@ -11,7 +11,7 @@ public class Users {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String userID;
-    @Column(name = "name")
+    @Column(name = "user_account")
     private String userAccount;
     //можно не указывать Column name, если оно совпадает с названием столбца в таблице
     //@OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
